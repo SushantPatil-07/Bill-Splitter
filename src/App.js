@@ -79,7 +79,6 @@ const BillSplitter = () => {
     <div className="container mt-5 p-3">
       <h1 className="text-center mb-4">Bill Splitter</h1>
 
-      {/* Add Person Section */}
       <div className="mb-3">
         <div className="d-flex flex-column flex-md-row">
           <input
@@ -99,7 +98,6 @@ const BillSplitter = () => {
         </div>
       </div>
 
-      {/* Add Item Section */}
       <div className="mb-3">
         <div className="d-flex flex-column flex-md-row">
           <input
@@ -119,7 +117,6 @@ const BillSplitter = () => {
         </div>
       </div>
 
-      {/* Set Contributions Section */}
       <div className="mb-4">
         <div className="row">
           <div className="col-12 col-md-4 mb-2">
@@ -163,7 +160,6 @@ const BillSplitter = () => {
         </button>
       </div>
 
-      {/* Display Summary Table */}
       <div className="table-responsive">
         <table className="table table-bordered table-striped text-center">
           <thead className="table-dark">
@@ -198,7 +194,6 @@ const BillSplitter = () => {
         </table>
       </div>
 
-      {/* Export to Excel Button */}
       <button className="btn btn-info" onClick={exportToExcel}>
         Export to Excel
       </button>
